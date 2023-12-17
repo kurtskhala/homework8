@@ -1,4 +1,29 @@
 /* Exercise 1 */
+.Ex1 {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(248, 192, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ex1-button {
+    cursor: pointer;
+    background-color: rgb(248, 192, 255);
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px white inset, 3px 3px 3px black;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.Ex1-button:active {
+    box-shadow: 3px 3px 3px black inset, -2px -2px 3px white inset;
+    text-shadow: 1px 1px 3px black;
+}
 /* Exercise 2 */
 /* Exercise 3 */
 /* Exercise 4 */
