@@ -52,6 +52,32 @@
     border-radius: 20px 20px 0 0;
 }
 /* Exercise 3 */
+.Ex3 {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ex3-text {
+    font-size: 140px;
+    letter-spacing: 20px;
+    color: red;
+    animation: glowText 0.5s ease-in-out infinite;
+}
+
+@keyframes glowText {
+    0% {
+        color: red;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: red;
+    }
+}
 /* Exercise 4 */
 /* Exercise 5 */
 /* Exercise 6 */
