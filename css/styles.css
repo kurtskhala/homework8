@@ -25,6 +25,32 @@
     text-shadow: 1px 1px 3px black;
 }
 /* Exercise 2 */
+.Ex2 {
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    transition: 1s;
+} 
+
+.Ex2-img {
+    width: 100%;
+    object-fit: contain;
+    transition: 1s;
+}
+
+.Ex2-text {
+    color: red;
+    margin-top: 5px;
+}
+
+.Ex2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px purple, 0 0 10px purple;
+}
+
+.Ex2:hover .Ex2-img {
+    border-radius: 20px 20px 0 0;
+}
 /* Exercise 3 */
 /* Exercise 4 */
 /* Exercise 5 */
